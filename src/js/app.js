@@ -21,7 +21,6 @@ form.addEventListener('submit', (e) => {
     text = 'Сard number can only contain digits';
     view.showMessage(text);
   } else if (test.checkSum()) {
-    // test.checkPaymentService();
     const type = test.checkPaymentService();
     if (type !== 'undefined') {
       text = `Card number is valid (${String(type).toUpperCase()})`;

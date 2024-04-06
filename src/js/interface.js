@@ -30,9 +30,6 @@ export default class Interface {
       if (el.payment_system === 'undefined') {
         card.classList.add('hidden');
       }
-      if (el.payment_system === 'undefined') {
-        card.classList.add('hidden');
-      }
       card.dataset.name = el.payment_system;
       this.cardsHolder.appendChild(card);
     });
