@@ -1,0 +1,44 @@
+{
+    "cards": [
+        {"id": 1,
+        "payment_system": "visa",
+        "img":"src/img/Visa.png"
+
+        },
+        {"id": 2,
+        "payment_system": "mastercard",
+        "img":"src/img/Mastercard.png",
+        "innRange": [
+            {"from": 51, "to": 55},
+             {"from": 222100, "to": 272099}]
+        },
+        {"id": 3,
+        "payment_system": "maestro",
+        "img":"src/img/Maestro.png"
+        },
+        {"id": 4,
+        "payment_system": "mir",
+        "img":"src/img/MIR.png"
+        },
+        {"id": 5,
+        "payment_system": "american-express",
+        "img":"src/img/American-express.png"
+        },
+        {"id": 6,
+        "payment_system": "jcb",
+        "img":"src/img/Jcb.png"
+        },
+        {"id": 7,
+        "payment_system": "discover",
+        "img":"src/img/Discover.png"
+        },
+        {"id": 8,
+        "payment_system": "diners-club",
+        "img":"src/img/Diners-club.png"
+        },
+        {"id": 9,
+        "payment_system": "undefined",
+        "img":"src/img/Undefined.png"
+        }
+    ]
+}
